@@ -1,0 +1,23 @@
+{
+  "name": "challange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "node ./update_value.js",
+    "get": "node ./get_value.js",
+    "accounts": "node ./get_accounts.js",
+    "prettier": "npx prettier -w ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "prettier": "2.8.3",
+    "web3": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
